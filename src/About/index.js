@@ -1,4 +1,4 @@
-import '../About/index.css'
+import './about.css'
 
 import image1 from './images/mission 1.png'
 import image2 from './images/offficina.webp'
@@ -11,20 +11,6 @@ import image4 from './images/visão 1.png'
 function App() {
     return (
         <div>
-
-            <div id="container">
-                <div id="header">
-                    <h1 id="logo">Moto <span>Dev</span></h1>
-                    <div id="nav">
-                        <a href="#">Inicio</a>
-                        <a href="#">Sobre</a>
-                        <a href="#">Serviços</a>
-                        <a href="#">Contado</a>
-                    </div>
-                </div>
-            </div>
-
-
 
             {/* <!-- ///////////////////////////// SEÇÃO 02 /////////////////////////////////////////////////// --> */}
 
@@ -93,21 +79,6 @@ function App() {
                 <img src={image3} />
 
             </div>
-
-
-            <div id="footer">
-
-                <div>
-                    <a href="#">Sobre</a>
-                    <a href="#">Serviços</a>
-                    <a href="#">Contado</a>
-                    <a href="#">Login</a>
-                </div>
-
-            </div>
-
-
-
 
         </div>
 

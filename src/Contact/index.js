@@ -1,30 +1,13 @@
-import './index.css';
-import image1 from './images/contato 1.png'
-import image2 from './images/redes 1.png'
+import './contact.css';
+import image1 from './images/contato1.png'
+import image2 from './images/redes1.png'
 
 
 
 function App() {
     return (
         <div>
-            <div id="container">
-                <div id="header">
-                    <h1 id="logo">Moto <span>Dev</span></h1>
-                    <div id="nav">
-                        <a href="#">Inicio</a>
-                        <a href="#">Sobre</a>
-                        <a href="#">Serviços</a>
-                        <a href="#">Contado</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-            {/*   <!-- ///////////////////////////// SEÇÃO 02 /////////////////////////////////////////////////// --> */}
-
-
-            <div id="section-2">
+            <div className="section2">
                 <div>
                     <h1>Contate a Moto Dev!<br /><br /> </h1>
                     <h2>Telefone:(11) 2222-0202 / (11) 90222-0002<br /><br />
@@ -32,7 +15,7 @@ function App() {
                         E-mail:contato@motodev.com.br
                     </h2>
                 </div>
-                <img src={image1} />
+                {<img src={image1} />}
             </div>
 
 
@@ -50,7 +33,7 @@ function App() {
 
                         Twitter: @motodevOficial</h2>
                 </div>
-                <img src={image2} />
+                {<img src={image2} />}
             </div>
 
 

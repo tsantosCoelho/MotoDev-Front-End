@@ -1,4 +1,4 @@
-import './index.css';
+import './service.css';
 import image1 from './images/serviços 1.png'
 import image2 from './images/euipe 1.png'
 import image3 from './images/satisfação 1.png'
