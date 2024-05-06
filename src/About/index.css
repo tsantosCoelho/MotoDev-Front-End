@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    height: 96px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 70px;
+    background-color: #343434;
+    gap: 80px;
+}
+
+span {
+    color: red
+}
+
+#logo{
+    color: #ffffff;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    width: 300px;
+    gap: 30px
+}
+
+#nav>a {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+/* ////////////////////////------- SEÇAÕ 02 ---------- ////////////////////////////////////////////////////////////////// */
+
+
+#section-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#section-2>div {
+    max-width: 500px;
+}
+
+#section-2>div>h1 {
+    font-size: 40px;
+    color: #000000;
+}
+
+#section-2>div>h2 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #000000;
+}
+
+#section-2>img {
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 60px;
+}
+
+
+
+/* ////////////////////////------- SEÇAÕ 03 ---------- ////////////////////////////////////////////////////////////////// */
+
+
+#section-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 600px;
+    background-color: #1D1D1B;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#section-3>div {
+    max-width: 500px;
+}
+
+#section-3>div>h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#section-3>div>h2 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+#section-3>img {
+    background-size: cover;
+    border-radius: 60px;
+}
+
+
+/* ////////////////////////------- SEÇAÕ 04 ---------- ////////////////////////////////////////////////////////////////// */
+
+#section-4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#section-4>div {
+    max-width: 500px;
+}
+
+#section-4>div>h1 {
+    font-size: 40px;
+    color: #000000;
+}
+
+#section-4>div>h2 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #000000;
+}
+
+#section-4>img {
+    background-size: cover;
+    border-radius: 60px;
+}
+
+
+/* ////////////////////////------- SEÇAÕ 05 ---------- ////////////////////////////////////////////////////////////////// */
+
+
+
+#section-5 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 600px;
+    background-color: #000000;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#section-5>div {
+    max-width: 500px;
+}
+
+#section-5>div>h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#section-5>div>h2 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+#section-5>img {
+    background-size: cover;
+    border-radius: 60px;
+}
+
+
+/* ////////////////////////------- SEÇAÕ Footer ---------- ////////////////////////////////////////////////////////////////// */
+
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+
+}
+
+#footer > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+#footer > div > a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#000000
+}
