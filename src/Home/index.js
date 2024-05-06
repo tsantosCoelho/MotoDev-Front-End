@@ -1,4 +1,4 @@
-import './App.css';
+import './home.css';
 import image1 from './images/FOTOACESSORIOS.jpg'
 import image2 from './images/mecnico.jpeg'
 import image3 from './images/notecara.png'
@@ -9,21 +9,7 @@ import image6 from './images/apertomao.png'
 function App() {
   return (
     <div>
-      <div id="container">
-        <div id="header">
-          <h1 id="logo">Moto <span>Dev</span></h1>
-          <div id="nav">
-            <a href="#">Inicio</a>
-            <a href="#">Sobre</a>
-            <a href="#">Serviços</a>
-            <a href="#">Contado</a>
-          </div>
-        </div>
-      </div>
-
-      {/* ///////////////////////////// SEÇÃO 02 /////////////////////////////////////////////////// */}
-
-
+    {/* ///////////////////////////// SEÇÃO 02 /////////////////////////////////////////////////// */}
       <div id="section-2">
         <div>
           <h1>Conheça o seu <br /> novo lugar</h1>
@@ -35,8 +21,6 @@ function App() {
         </div>
         <img src={image1} />
       </div>
-
-
       {/* ///////////////////////////// SEÇÃO 03 /////////////////////////////////////////////////// */}
 
       <div id="section-3">
@@ -123,10 +107,7 @@ function App() {
 
         </div>
 
-      </div>
-
-
-     
+      </div>     
 
       {/* ///////////////////////////// SEÇÃO 07 /////////////////////////////////////////////////// */}
       
@@ -138,17 +119,6 @@ function App() {
           profissional e que ofereça serviços de alta qualidade,
           então a Moto Dev é o lugar certo para você!
         </h1>
-      </div>
-
-      <div id="c-footer">
-
-        <div id='footer'>
-          <a href="#">Sobre</a>
-          <a href="#">Serviços</a>
-          <a href="#">Contado</a>
-          <a href="#">Login</a>
-        </div>
-
       </div>
 
     </div>
