@@ -7,6 +7,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import About from './About/index.js'
 import Contact from './Contact/index.js'
 import Service from './Services/index.js'
+import Login from './Login/login.js';
 
 
 // const router = createBrowserRouter([
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path:'servico',
         element: <Service />
+      },
+      {
+        path:'login',
+        element:<Login />
       }
     ]
   }
