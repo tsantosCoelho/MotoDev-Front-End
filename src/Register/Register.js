@@ -25,7 +25,8 @@ function Register(){
             })
             const token = JSON.stringify(data.token)
             localStorage.setItem("token",token)
-            navegacao('/user/clientes')
+            navegacao('/user/services')
+            window.location.reload()
         } catch (error) {
             console.log(error)
             return 
