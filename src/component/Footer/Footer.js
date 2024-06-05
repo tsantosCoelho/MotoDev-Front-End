@@ -1,4 +1,5 @@
 import styles from './Footer.module.css'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -6,10 +7,11 @@ function Footer() {
             <div className={styles.footer}>
 
                 <div className='menu_footer'>
-                    <a href="#">Sobre</a>
-                    <a href="#">Serviços</a>
-                    <a href="#">Contado</a>
-                    <a href="#">Login</a>
+                <Link to="/">Inicio</Link>
+                <Link to="/about">Sobre</Link>
+                <Link to="/service">Serviços</Link>
+                <Link to="/contact">Contato</Link>
+                <Link to="/login">Login</Link>
                 </div>
 
             </div>

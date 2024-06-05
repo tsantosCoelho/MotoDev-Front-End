@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    min-height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    font-family: sans-serif;
+}
+
+
+.servico{
+    display: flex;
+    min-width: 450px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    border: 1px solid #777;
+    padding: 1em;
+    border-radius: 10px;
+
+}
+
+.servico p{
+    font-weight: bold;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.border{
+}
+
+.botoes button >  img{
+    width: 20px;
+}
+
+.botoes a >  img{
+    width: 20px;
+}

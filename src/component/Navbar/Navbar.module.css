@@ -18,6 +18,7 @@
   .header nav > div{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-right: 100px;
     width: 300px;
     gap: 30px;

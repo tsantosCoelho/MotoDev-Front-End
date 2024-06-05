@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 2em;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 350px;
+    margin: 2em;
+}
+
+.title input{
+    width: 30%;
+    cursor: pointer;
+    padding: 7px 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.title input:hover{
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+.register{
+    display: flex;
+    min-width: 350px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.register label{
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.register input{
+    margin-bottom: 1em;
+    padding: 8px;
+    width: 100%;
+}
+
+.register select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 1em;
+}
+
+.container select > option{
+    font-family: sans-serif;
+}

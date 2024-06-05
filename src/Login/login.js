@@ -24,8 +24,10 @@ function Login(){
             }) 
             const token = JSON.stringify(data.token)
             localStorage.setItem("token",token)
-            alert("deu certo")
-            navegacao('/user/clientes')
+            //alert("deu certo")
+            navegacao('/user/services')
+            window.location.reload()
+            
         } catch (error) {
             console.log(error)
         }
